@@ -8,7 +8,7 @@ public class Brouillon {
 		Color[] codeSecret = new Color[nbTrous];
 		for (int i=0; i<nbTrous; i++) {
 			int iCouleur = rand.nextInt(nbCoul);
-			codeSecret[i]=this.modl.COULEUR[iCouleur];
+			codeSecret[i]=Modele.COULEURS[iCouleur];
 		}
 		return codeSecret;
 	}
