@@ -6,18 +6,15 @@ public class Rangée {
 	int indiceJeton;
 	int[] resultat = new int[2];
 	
-	public Rangée() {
-		Modèle modl = new Modèle();
+	public Rangée(int diff) {
 		
-		this.jetons = new Color[modl.Difficulté];
-		
+		this.jetons = new Color[diff];
 		
 	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] test = new int[2];
-		System.out.println(test[2]);
+		
 	}
 
 }
