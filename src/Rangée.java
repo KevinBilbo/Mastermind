@@ -7,9 +7,9 @@ public class Rangée {
 	int[] resultat = new int[2];
 	
 	public Rangée() {
-		Modèle modl = new Modèle();
+		Modele modl = new Modele();
 		
-		this.jetons = new Color[modl.Difficulté];
+		this.jetons = new Color[modl.DIFFICULTE];
 		
 		
 	}
