@@ -5,17 +5,10 @@ public class Rangée {
 	Color[] jetons;
 	int indiceJeton;
 	int[] resultat = new int[2];
-	
 
 	public Rangée() {
-		Modele modl = new Modele();
-		
-		this.jetons = new Color[modl.DIFFICULTE];
 
-	public Rangée(int diff) {
-
-		
-		this.jetons = new Color[diff];
+		this.jetons = new Color[Modele.DIFFICULTE];
 		
 	}
 
